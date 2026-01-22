@@ -1,0 +1,18 @@
+x = number of players
+p = current player (start at 0)
+s to t, where n is beginning and m is target
+n = current number
+
+E1 = c
+E2 = d
+
+loop while !game end
+	n += 1
+	p += 1
+	if p > x: p = 1
+	if n == t
+		print player p said t!
+		game end
+	else
+		if n is divisible by E1 switch directions
+		if n is divisible by E2 skip next player
